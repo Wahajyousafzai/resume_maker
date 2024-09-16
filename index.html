@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+    rel="stylesheet" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Resume Builder</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js" integrity="sha512-vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body >
+  <span class="form_button"><a href="./form.html"><button id="create_resume" class="create_resume">Create Resume</button></a><button id="download" class="create_resume">Download PDF</button></span> 
+  
+
+  <main id="resume" class="testimonial-grid"> 
+
+    <div class="profile" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+      <div class="tilt1">
+      <span class="p_info">
+      <div><img  class="profile_img" src="images/channels4_profile.jpg" alt=""></div>
+      <div class="myinfo">
+        <h2 id="displayName" class="name1 name">Muhammad Wahaj</h2>
+        <p id="job" class="position1 position">Frontend Developer</p>
+      </div>
+      </span>
+        <span class="social_icons">
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-github icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-linkedin-in icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-youtube icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-facebook icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-solid fa-globe icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-instagram icon"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-wahaj-khan-swati/"><i class="fa-brands fa-discord icon"></i></a>
+        </span>
+        <div class="detail_info">
+          <p>Email :</p>
+        <p id="email">xyz@gmail.com</p>
+
+          <p>Phone :</p>
+        <p id="phone">03105637</p>
+
+          <p>Gender :</p>
+        <p id="gender">Male</p>
+
+          <p>City :</p>
+        <p id="city">Karachi</p>
+
+          <p>Address :</p>
+        <p id="address">address</p>
+
+          <p>State :</p>
+        <p id="state">Sindh</p>
+
+          <p>Postal Code :</p>
+        <p id="postalCode">52335</p>
+      </div>
+      </div>
+    </div>
+
+
+    <article class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100 " data-tilt>
+      <div class="flex box_3">
+        <div class="p_container">
+          <img class="p_icon" src="./images/channels4_profile.jpg" alt="Wahaj" />
+        </div>
+        <div class="detail">
+          <h2 class="name">Muhammad Wahaj</h2>
+          <p class="position">Frontend Developer</p>
+        </div>
+      </div>
+      <p id="Experience"><i class="fa-solid fa-business-time icon"></i>Experience</p>
+      <p id="experience_name" class="experience_name">Master Design</p>
+      <span id="experience_Years" class="experience">2 Years | </span><span id="experience_institute" class="experience_institute"> Tech Ride</span>
+      <p id="experience">
+        “ Work in this company dedicating the best responsibility in the area that
+        corresponds, delivering the best results for the company and improving
+        productivity. ”
+      </p>
+    </article>
+
+
+    <article class="testimonial flow bg-secondary-400 text-neutral-100" data-tilt>
+      <div class="flex box_2">
+        <div class="p_container">
+          <img class="p_icon" src="./images/channels4_profile.jpg" alt="Wahaj" />
+        </div>
+        <div class="detail">
+          <h2 class="name">Muhammad Wahaj</h2>
+          <p class="position">Frontend Developer</p>
+        </div>
+      </div>
+      <p id="skills"><i class="fa-regular fa-lightbulb icon"></i>Skills</p>
+      <p>
+      <ul id="skillsList" class="skill_list">
+        <li>Html</li>
+        <li>Css</li>
+        <li>TailWindCss</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>NextJs</li>
+      </ul>
+      </p>
+    </article>
+    <article class="testimonial flow bg-neutral-100 text-secondary-400" data-tilt>
+      <div class="flex">
+        <div class="p_container">
+          <img class="p_icon" src="./images/channels4_profile.jpg" alt="Wahaj" />
+        </div>
+        <div class="detail">
+          <h2 class="name">Muhammad Wahaj</h2>
+          <p class="position">Frontend Developer</p>
+        </div>
+      </div>
+      <p id="certificates"><i class="fa-solid fa-award icon"></i>Certificates</p>
+      <p id="certificates_name" class="certificates_name">Master Design</p>(<span id="certificates_date" class="certificates_date">2021</span>)
+      <p id="certificates_para">
+        “ For meeting the expectations of leading the team to work the specified tasks. ”
+      </p>
+    </article>
+
+    <article class="final testimonial flow bg-neutral-100 text-secondary-400" data-tilt>
+      <div class="flex">
+        <div class="p_container">
+          <img class="p_icon" src="./images/channels4_profile.jpg" alt="Ahmed" />
+        </div>
+        <div class="detail">
+          <p class="name">Muhammad Wahaj</p>
+          <p class="position">Frontend Developer</p>
+        </div>
+      </div>
+      <p id="education"><i class="fa-solid fa-user-graduate icon"></i>Education</p>
+      <p id="edu_degree" class="education_name">Bsc</p>
+      <span id="edu_institute" class="education_institute">Tech University</span><span id="education_date">From 2015 To 2017</span>
+    </article>
+  </main>
+
+</body>
+
+
+<script src="index.js"></script>
+<script src="tilt.js"></script>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <form id="userForm">
+        <!-- Name  and  Job -->
+         <h2>Personal Info</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job" required>
+
+
+        <div class="input-box">
+            <label>Email Address</label>
+            <input id="email" type="text" placeholder="Enter email address" required />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input id="phone" type="number" placeholder="Enter phone number" required />
+            </div>
+
+                <h3>Gender</h3>
+                <label>gender</label>
+                <input id="gender" type="text" placeholder="Enter Your Gender" required />
+                 
+
+                <div class="input-box address">
+                    <h2>Address</h2>
+                    <input id="state" type="text" placeholder="Enter your State" required />
+
+                    <input id="address" type="text" placeholder="Enter street address" required />
+
+                    <input id="city" type="text" placeholder="Enter your city" required />
+                    
+                    <input id="postalCode" type="number" placeholder="Enter postal code" required />
+                    
+                  </div>
+
+
+
+        <!-- Experience -->
+      <h2>Experience</h2>
+        <label for="experience_name"></label>
+        <input type="text" id="experience_name" placeholder="Experience" name="experience_name">
+        <input type="text" id="experience_Years" placeholder="Experience Years" name="experience_Years">
+        <input type="text" id="experience_institute" placeholder="Experience Place" name="experience_institute">
+        <input type="text" id="experience" placeholder="Experience" name="experience">
+      
+
+<!-- Certificates -->
+
+<h2>Certificates</h2>
+<input type="text" id="certificates_name" placeholder="Experience Title" name="certificates_name" required>
+<input type="text" id="certificates_date" placeholder="Experience Title" name="certificates_date" required>
+<input type="text" id="certificates_para" placeholder="Experience Title" name="certificates_para" required>
+
+
+<!-- Education -->
+
+<h2>Education</h2>
+<input type="text" id="edu_institute" placeholder="Institute" name="edu_institute" required>
+<input type="text" id="edu_degree" placeholder="Education Degree" name="edu_degree" required>
+<input type="text" id="education_date" placeholder="Date" name="education_date" required>
+
+
+
+
+        <!-- Skills -->
+         <h2>Skills</h2>
+    <input class="inputSkills" type="text" id="inputElement" placeholder="Skills" name="skill_list">
+<p id="add_skill">Add Skills</p>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
