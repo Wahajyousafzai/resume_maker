@@ -151,6 +151,22 @@
 
 
 <script src="index.js"></script>
+<script src="html2pdf.bundle.min.js"></script>
+<script>
+const resume = document.getElementById('resume');
+const opt = {
+    margin: 0,
+    filename: 'myfile.pdf',
+    image: { type: 'jpeg', quality: 1 },
+    html2canvas: { scale: 5 },
+    jsPDF: { unit: 'mm', format: 'letter', orientation: 'landscape' }
+};
+
+const download = document.getElementById('download');
+if (download) {
+    download.onclick = () => html2pdf(resume, opt);
+}
+</script>
 <script src="tilt.js"></script>
 
 </html>
