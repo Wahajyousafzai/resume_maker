@@ -208,8 +208,8 @@ h3 {
 @media screen and (min-width: 64em) {
   .testimonial-grid {
     grid-template-areas:
-    "one one one five"
-    "three four two two";
+    "one one two two"
+    "five four four three";
 }
 
 }
